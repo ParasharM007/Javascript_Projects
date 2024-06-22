@@ -1,0 +1,62 @@
+<html>
+    <head>
+      <title>javascript</title>
+
+    </head>
+<body>
+    
+Enter first number:<input  id="a"><br>
+Enter second number:<input id="b"><br>
+Result:<input id="ans">
+
+<button onclick="Add()">+</button>
+<button onclick="Sub()">-</button>
+<button onclick="Mul()">*</button>
+<button onclick="Div()">/</button>
+<button onclick="Mod()">%</button>
+    <Script>
+  function Add()
+  { 
+    var a= parseInt(document.getElementById("a").value);
+    var b=parseInt(document.getElementById("b").value);
+    c=a+b;
+    document.getElementById("ans").value=c;
+  }
+    
+  function Sub()
+  { 
+    var a=parseInt( document.getElementById("a").value);
+    var b=parseInt(document.getElementById("b").value);
+    c=a-b;
+    document.getElementById("ans").value=c;
+  }
+   
+  function Mul()
+  { 
+    var a=parseInt( document.getElementById("a").value);
+    var b=parseInt(document.getElementById("b").value);
+    c=a*b;
+    document.getElementById("ans").value=c;
+  }
+  
+  function Div()
+  { 
+    var a=parseInt( document.getElementById("a").value);
+    var b=parseInt(document.getElementById("b").value);
+    c=a/b;
+    document.getElementById("ans").value=c;
+  }
+  function Mod()
+  { 
+    var a=parseInt( document.getElementById("a").value);
+    var b=parseInt(document.getElementById("b").value);
+    c=a%b;
+    document.getElementById("ans").value=c;
+  }
+  </Script>
+
+
+
+   
+</body>
+</html>

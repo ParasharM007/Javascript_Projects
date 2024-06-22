@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index5.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- <input type="text" id="textInput" onkeyup="updateOutput()">
+<div id="output"></div> -->
+
+    <section class="container">
+        <form>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" name="" id="search-item" placeholder="Search Products" onkeyup="search()">
+        </form>
+        <div class="product-list" id="product-list">
+            <div class="product">
+                <img src="img/bag1.jpg" alt="">
+                <div class="p-details">
+                    <h2><b>College Bag</b></h2>
+                    <h3><b>25$</b></h3>
+                </div>
+
+            </div>
+            <div class="product">
+                <img src="img/bag2.jpg" alt="">
+                <div class="p-details">
+                    <h2><b>College Bag</b></h2>
+                    <h3><b>25$</b></h3>
+                </div>
+
+            </div>
+            <div class="product">
+                <img src="img/bag3.jpg" alt="">
+                <div class="p-details">
+                    <h2><b>College Bag</b></h2>
+                    <h3><b>25$</b></h3>
+                </div>
+
+            </div>
+            <div class="product">
+                <img src="img/blazer1.jpg" alt="">
+                <div class="p-details">
+                    <h2><b>Blazzers For You</b></h2>
+                    <h3><b>30$</b></h3>
+                </div>
+
+            </div>
+            <div class="product">
+                <img src="img/blazer2.jpg" alt="">
+                <div class="p-details">
+                    <h2><b>Blazzers For You</b></h2>
+                    <h3><b>25$</b></h3>
+                </div>
+
+            </div>
+            <div class="product">
+                <img src="img/blazer3.jpg" alt="">
+                <div class="p-details">
+                    <h2><b>Blazzers For You</b></h2>
+                    <h3><b>25$</b></h3>
+                </div>
+
+            </div>
+            <div class="product">
+                <img src="img/cap1.jpg" alt="">
+                <div class="p-details">
+                    <h2><b>Caps For Boys</b></h2>
+                    <h3><b>25$</b></h3>
+                </div>
+
+            </div>
+            <div class="product">
+                <img src="img/cap2.jpg" alt="">
+                <div class="p-details">
+                    <h2><b>Caps For Boys</b></h2>
+                    <h3><b>25$</b></h3>
+                </div>
+
+            </div>
+            <div class="product">
+                <img src="img/cap3.jpg" alt="">
+                <div class="p-details">
+                    <h2><b>Caps For Boys</b></h2>
+                    <h3><b>25$</b></h3>
+                </div>
+
+            </div>
+            <div class="product">
+                <img src="img/hoodie1.jpg" alt="">
+                <div class="p-details">
+                    <h2><b>Hoodie For Boys</b></h2>
+                    <h3><b>25$</b></h3>
+                </div>
+
+            </div>
+            <div class="product">
+                <img src="img/hoodie2.jpg" alt="">
+                <div class="p-details">
+                    <h2><b>Hoodie For Boys</b></h2>
+                    <h3><b>25$</b></h3>
+                </div>
+
+            </div>
+            <div class="product">
+                <img src="img/hoodie3.jpg" alt="">
+                <div class="p-details">
+                    <h2><b>Hoodie For Boys</b></h2>
+                    <h3><b>25$</b></h3>
+                </div>
+
+            </div>
+            <div class="product">
+                <img src="img/lip1.jpg" alt="">
+                <div class="p-details">
+                    <h2><b>Lipsticks</b></h2>
+                    <h3><b>25$</b></h3>
+                </div>
+
+            </div>
+            <div class="product">
+                <img src="img/lip2.jpg" alt="">
+                <div class="p-details">
+                    <h2><b>Lipsticks</b></h2>
+                    <h3><b>25$</b></h3>
+                </div>
+
+            </div>
+            <div class="product">
+                <img src="img/lip3.jpg" alt="">
+                <div class="p-details">
+                    <h2><b>Lipsticks</b></h2>
+                    <h3><b>25$</b></h3>
+                </div>
+
+            </div>
+            <div class="product">
+                <img src="img/perfume1.jpg" alt="">
+                <div class="p-details">
+                    <h2><b>Perfume For Men</b></h2>
+                    <h3><b>25$</b></h3>
+                </div>
+
+            </div>
+            <div class="product">
+                <img src="img/perfume2.jpg" alt="">
+                <div class="p-details">
+                    <h2><b>Perfume For Men</b></h2>
+                    <h3><b>25$</b></h3>
+                </div>
+
+            </div>
+            <div class="product">
+                <img src="img/perfume3.jpg" alt="">
+                <div class="p-details">
+                    <h2><b>Perfume For Men</b></h2>
+                    <h3><b>25$</b></h3>
+                </div>
+
+            </div>
+            <div class="product">
+                <img src="img/sneakers1.jpg" alt="">
+                <div class="p-details">
+                    <h2><b>Sneakers For Boys</b></h2>
+                    <h3><b>25$</b></h3>
+                </div>
+
+            </div>
+            <div class="product">
+                <img src="img/sneakers2.jpg" alt="">
+                <div class="p-details">
+                    <h2><b>Sneakers For Boys</b></h2>
+                    <h3><b>25$</b></h3>
+                </div>
+
+            </div>
+            <div class="product">
+                <img src="img/sneakers3.jpg" alt="">
+                <div class="p-details">
+                    <h2><b>Sneakers For Boys</b></h2>
+                    <h3><b>25$</b></h3>
+                </div>
+
+            </div>
+            <div class="product">
+                <img src="img/trouser1.jpg" alt="">
+                <div class="p-details">
+                    <h2><b>Trousers For Men</b></h2>
+                    <h3><b>25$</b></h3>
+                </div>
+
+            </div>
+            <div class="product">
+                <img src="img/trouser2.jpg" alt="">
+                <div class="p-details">
+                    <h2><b>Trousers For Men</b></h2>
+                    <h3><b>25$</b></h3>
+                </div>
+
+            </div>
+            <div class="product">
+                <img src="img/trouser3.jpg" alt="">
+                <div class="p-details">
+                    <h2><b>Trousers For Men</b></h2>
+                    <h3><b>25$</b></h3>
+                </div>
+
+            </div>
+            <div class="product">
+                <img src="img/tshirt1.jpg" alt="">
+                <div class="p-details">
+                    <h2><b>Tshirts For Boys</b></h2>
+                    <h3><b>25$</b></h3>
+                </div>
+
+            </div>
+            <div class="product">
+                <img src="img/tshirt2.jpg" alt="">
+                <div class="p-details">
+                    <h2><b>Tshirts For Boys</b></h2>
+                    <h3><b>25$</b></h3>
+                </div>
+
+            </div>
+            <div class="product">
+                <img src="img/tshirt3.jpg" alt="">
+                <div class="p-details">
+                    <h2><b>Tshirts For Boys</b></h2>
+                    <h3><b>25$</b></h3>
+                </div>
+
+            </div>
+            <div class="product">
+                <img src="img/watch1.jpg" alt="">
+                <div class="p-details">
+                    <h2><b>Watch</b></h2>
+                    <h3><b>25$</b></h3>
+                </div>
+
+            </div>
+            <div class="product">
+                <img src="img/watch2.jpg" alt="">
+                <div class="p-details">
+                    <h2><b>Watch</b></h2>
+                    <h3><b>25$</b></h3>
+                </div>
+
+            </div>
+            <div class="product">
+            <img src="img/watch3.jpg" alt="">
+                <div class="p-details">
+                    <h2><b>Watch</b></h2>
+                    <h3><b>25$</b></h3>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <script src="https://kit.fontawesome.com/631e42838e.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="index5.js"></script>
+
+</body>
+
+</html>
